@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script language="JavaScript" src="js/task_unfold.js"></script>
+    <script language="JavaScript" src="js/mail.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friends - Kokoatalk</title>
+</head>
+
+<body>
+    <div id="screen-division">
+        <section class="service-menu">
+            <p><i class="fa-solid fa-building-user"></i>홈</p>
+            <details>
+                <summary><i class="fa-solid fa-user"></i>사용자 관리</summary>
+            </details>
+            <details>
+                <summary><i class="fa-solid fa-envelopes-bulk"></i>메일 관리</summary>
+                <p>공용메일 관리</p>
+                <p>그룹메일 관리</p>
+                <p>메일 사용 현황</p>
+                <p>잠금 편지함 사용 현황</p>
+                <p>오피스 용량 사용 현황</p>
+                <p>스팸메일 관리</p>
+            </details>
+            <details>
+                <summary><i class="fa-solid fa-people-group"></i>회사 팀관리</summary>
+                <p>마케팅 팀</p>
+                <p>인사 팀</p>
+                <p>연구개발 팀</p>
+            </details>
+            <details>
+                <summary><i class="fa-solid fa-lock"></i>보안 메일</summary>
+            </details>
+
+        </section>
+        <section class="screen-right">
+
+
+            <div class="status-bar">
+                <div class="status-bar__column">
+                    <span>no service</span>
+
+                    <!--svg icon-->
+                    <i class="fas fa-wifi"></i>
+
+                </div>
+                <div class="status-bar__column">
+                    <span>11:11</span>
+                </div>
+                <div class="status-bar__column">
+                    <span>100%</span>
+                    <i class="fa-solid fa-battery-full fa-lg"></i>
+                    <i class="fas fa-bolt"></i></i>
+                </div>
+            </div>
+            <!--nav>ul>li*4-->
+
+            <header class="screen-header">
+                <h1 class="screen-header__title">Briefing
+                </h1>
+                <div class="screen-header__icons">
+                    <span>
+                        <i class="fas fa-search fa-lg"></i>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-music fa-lg"></i>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-cog fa-lg"></i>
+
+                    </span>
+
+                </div>
+            </header>
+
+
+            <!----------task------------->
+
+            <div class="tasks">
+                Today's Task
+                <i class="fas fa-chevron-down fa-xs"></i>
+            </div>
+
+            <div class='tasks-board'>
+                <ul class="tasks-board-list">
+                    <li>
+                        <i class="fa-regular fa-square-minus"></i></i>Task1
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-square-minus"></i>Task2
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-square-minus"></i>Task3
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-square-minus"></i>Task4
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-square-minus"></i>Task5
+                    </li>
+                </ul>
+            </div>
+
+            <main class="friends-screen">
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img class="user-component__avatar--xl" src="pp.jpg" alt="">
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">fluorjo</h4>
+                            <h6 class="user-component__subtitle">남길말 : 퇴근 휴가 퇴사 </h6>
+
+                        </div>
+
+                    </div>
+                    <div class="user-component__column">
+                        <i class="fa-solid fa-desktop fa-2x"></i>
+                        Task1
+                    </div>
+                    <!-- <div class="user-component__column">
+            <i class="fa-solid fa-person-circle-exclamation fa-2x"></i>
+            Task1
+        </div> -->
+
+                </div>
+
+                <!--------------------------mail-------------------->
+                <div class="friends-screen__channel">
+                    <div class="friends-screen__channel-header mail">
+
+                        <i class="fa-solid fa-envelope-open-text fa-1x">Mail</i>
+
+                    </div>
+                    <div class='mail-board'>
+                        <ul class="mail-board-list">
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i></i>Mail 1
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i></i>Mail 2
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i></i></i>Mail 3
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope-open"></i></i></i>Mail 4
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope-open"></i></i></i>Mail 5
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <details>
+                    <summary>마케팅팀📞</summary>
+                    <p>
+                    <div class="user-component__column">
+                        <img class="user-component__avatar--sm" src="ma.png" alt="👤">
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">마팀장</h4>
+                        </div>
+                    </div>
+                    </p>
+                    <p>
+                    <div class="user-component__column chajang">
+                        <span id="down_slash">└</span>
+
+                        <img class="user-component__avatar--sm" src="person.png" alt="👤">
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">차차장</h4>
+                        </div>
+                    </div>
+                    </p>
+                    <p>
+                    <div class="user-component__column gwajang">
+                        <span id="down_slash">└</span>
+                        <img class="user-component__avatar--sm" src="person.png" alt="👤">
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">곽과장</h4>
+                        </div>
+                    </div>
+                    </p>
+                </details>
+                <details>
+                    <summary>인사팀🙇</summary>
+                    <p>내부에 넣을 내용을 입력해주세요</p>
+                </details>
+            </main>
+
+        </section>
+    </div>
+
+
+
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <!--ul라고 해도 됨-->
+            <li class="nav__btn">
+                <!--li라고 해도 됨-->
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    
+    <div id="splash-screen">
+        <div id="bg">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div id="bg2">
+            <div class="square" id="sq1"></div>
+            <div class="square" id="sq2"></div>
+            <div class="square" id="sq3"></div>
+            <div class="square" id="sq4"></div>
+            <div class="square" id="sq5"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/29233b525a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

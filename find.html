@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Find - Kokoatalk</title>
+</head>
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>no service</span>
+
+            <!--svg icon-->
+            <i class="fas fa-wifi"></i>
+
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i> 
+            <i class="fas fa-bolt"></i></i>  </div>
+    </div>
+<!--nav>ul>li*4-->
+
+<header class="screen-header">
+    <h1 class="screen-header__title">Find</h1>
+    <div class="screen-header__icons">
+        <span>
+            <i class="fas fa-search fa-lg"></i>
+        </span>
+                
+        <span>
+            <i class="fas fa-cog fa-lg"></i>
+
+        </span>
+
+    </div>
+</header>
+
+
+
+<main class="main-screen">
+    <div class='icon-row'>
+
+        <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+            
+        <div class="icon-row__icon">
+            <i class="fa-solid fa-building-user"></i>
+            <span>
+                직원 검색
+            </span>
+        </div>
+        </a>
+
+
+        <a href="profile/gogaek.html" onclick="window.open(this.href, '_blank'); return false;">
+        <div class="icon-row__icon">
+            <i class="far fa-address-book"></i>
+            <span>
+                고객 및 거래처
+            </span>
+        </div>
+        </a>
+
+        <a href="task/index.html" onclick="window.open(this.href, '_blank'); return false;">
+        <div class="icon-row__icon">
+            <i class="fa-solid fa-file-circle-question"></i>
+
+            <span>
+                안건 검색
+            </span>
+        </div>
+        </a>
+
+        <a href="https://mail.naver.com">
+
+        <div class="icon-row__icon">
+            <i class="far fa-envelope"></i>
+            <span>
+            메일
+            </span>
+        </div>
+        </a>
+    </div>
+
+    <div class='recommended-friends'>
+        <h6 class="recommended-friends__title">사내 소식</h6>
+        <span>[긴급] A사와 거래 중지...</span>
+        <span>[공지] 빌딩 입구에서 담배피지 마세요...</span>
+        <span>[긴급] 인사팀 이대리 댕댕, 김과장 보자마자 달려가...</span>
+        <span>[표창] 10월 우수 사원은...</span>
+        <span>[언론 보도]우리 회사가 00일보에...</span>
+    </div>
+    <div class='open-chat'>
+        <div class='open-chat__header'>
+            <h4 class="open-chat__title">
+                오픈 채팅
+            </h4>
+            <span>
+                Go to Openchat Home
+                <i class="fas fa-chevron-right fa-xs"></i>
+
+            </span>
+
+        </div>
+        <div class='open-post'>
+            <div class='open-post__column'>
+                <h5 class="open-post__title">#클라이밍 동호회</h5>
+                <h6 class="open-post__hashtags">#클라이밍 #실내암벽등반 #회원항시모집 #재밌어요</h6>
+                <div class='open-post__members'>
+                    <img src="pp.jpg" alt="image">
+                    <span class="open-post__member-count">99 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class='open-post__column'>
+                <div class='open-post__photo'>
+                    <img src="climing.jpg" alt="">
+                    <div class="open-post__heart-count">
+                        <i class="fas fa-heart fa-xs"></i>
+                        <span>333</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+<nav class="nav">
+    <ul class="nav__list"><!--ul라고 해도 됨-->
+        <li class="nav__btn"><!--li라고 해도 됨-->
+            <a class="nav__link" href="friends.html">
+                <i class="far fa-user fa-2x"></i>
+            </a>
+        </li>
+
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i>
+            </a>        
+        </li>
+        
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+                <i class="fas fa-search fa-2x"></i>
+            </a>
+        </li>
+
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+                <i class="fa-solid fa-ellipsis fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+    <script
+        src="https://kit.fontawesome.com/29233b525a.js" 
+
+crossorigin="anonymous"></script>
+</body>
+</html>

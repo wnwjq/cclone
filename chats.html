@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chats - Kokoatalk</title>
+</head>
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>no service</span>
+
+            <!--svg icon-->
+            <i class="fas fa-wifi"></i>
+
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i> 
+            <i class="fas fa-bolt"></i></i>  </div>
+    </div>
+<!--nav>ul>li*4-->
+
+<header class="screen-header">
+    <h1 class="screen-header__title">Chats</h1>
+    <div class="screen-header__icons">
+        <span>
+            <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+            <i class="far fa-comment-dots fa-lg"></i>
+        </span>
+        
+        <span>
+            <i class="fas fa-music fa-lg"></i>
+        </span>
+        
+        <span>
+            <i class="fas fa-cog fa-lg"></i>
+
+        </span>
+
+    </div>
+</header>
+
+
+
+<main class="main-screen">
+    
+        <div class="user-component">
+            <div class="user-component__column">
+                <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+                <img class="user-component__avatar" src="ma.png">
+                </a>
+
+                <a href="chat.html">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">마팀장</h4>
+
+                        <h6 class="user-component__subtitle">마미손 마케팅 마무리 마지막 마마무</h6>
+
+                </div>
+                </a>
+
+        
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">
+                    21:22
+                </span>
+                <div class="badge">1</div>
+
+        
+            </div>
+        
+        
+        </div>
+    </a>
+
+</main>
+
+
+
+<nav class="nav">
+    <ul class="nav__list"><!--ul라고 해도 됨-->
+        <li class="nav__btn"><!--li라고 해도 됨-->
+            <a class="nav__link" href="friends.html">
+                <i class="far fa-user fa-2x"></i>
+            </a>
+        </li>
+
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="fas fa-comment fa-2x"></i>
+            </a>        
+        </li>
+        
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+                <i class="fas fa-search fa-2x"></i>
+            </a>
+        </li>
+
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+                <i class="fa-solid fa-ellipsis fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+    <script
+        src="https://kit.fontawesome.com/29233b525a.js" 
+
+crossorigin="anonymous"></script>
+</body>
+</html>

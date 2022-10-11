@@ -1,0 +1,50 @@
+.screen-right {
+    width: 100%;
+}
+
+#screen-division {
+    display: flex;
+}
+
+.service-menu {
+    height: 805px;
+    background: rgb(228, 255, 255);
+}
+
+.service-menu>p {
+    padding: 15px 20px 15px 20px;
+    background: rgb(190, 255, 255);
+    cursor: pointer;
+}
+
+.service-menu>p>i {
+    margin-right: 10px;
+}
+
+.service-menu>details {
+    background: rgb(157, 255, 255);
+    white-space: nowrap;
+    padding: 10px 10px 10px 20px;
+}
+
+.service-menu>details i {
+    margin-right: 15px;
+}
+
+.service-menu>details {
+    background: rgb(228, 255, 255);
+}
+
+.service-menu>details:hover {
+    background: rgb(199, 255, 255);
+}
+
+details p {
+    margin-top: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+details p:hover {
+    background: white;
+    cursor: pointer;
+}

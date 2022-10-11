@@ -1,0 +1,86 @@
+
+
+.mail i{
+    color: black;
+}
+
+.mail :hover{
+    cursor: pointer;
+}
+
+
+.mail{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    
+
+}
+
+.mail i{
+    color: rgba(0,0,0, 1);
+}
+
+.mail .fa-envelope-open-text{
+    display: inline;
+}
+.mail .fa-inbox {
+    display: none;
+}
+
+
+  .mail:hover, .close:hover {
+    cursor:pointer;
+  }
+
+  
+  .mail-board {
+    font-family:'돋움';
+    font-size:13px;
+    width:85vw;
+    height:135px;
+
+    display: none;
+    
+    position: relative;
+    top: 0px;
+    left: 40px;
+
+    padding-left: 10px;
+
+
+  }
+  
+  .mail-board-list {
+    font-size: 22px;
+  }
+  
+  .mail-board-list li {
+    list-style:none;
+    margin-top:5px;
+  }
+  
+  .mail-board-list li:hover {
+    text-decoration:underline;
+    cursor:pointer;
+  }
+
+  .close2 {
+
+
+    display:block;
+    visibility:hidden;
+
+    display: block;
+    
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+
+  }
+  

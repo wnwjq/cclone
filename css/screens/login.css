@@ -1,0 +1,65 @@
+
+.welcome-header{
+    margin:90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.welcome-header__title{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.8;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px ;
+}
+
+/* .login-form__input*/
+#login-form input {
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 25px;
+}
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0,0,0);
+}
+
+/*.login-form___btn*/
+
+#login-form input[type="submit"]{
+    background-color: var(--yellow);
+    cursor: pointer;
+    /*not-allowed :커서가 금지 표시로 바뀜.
+    progress: 진행중 표시*/
+    font-size: 15px;
+    padding: 20px 0px;
+    border-radius: 5px;
+
+}
+
+/*.login-form__a*/
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    /*anchor가 색을 부모로부터 상속받아옴. 
+    디폴트 색이 검정이라서 검정색으로 됨. */
+    font-size: 14px;
+}
+
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.4);
+}
+

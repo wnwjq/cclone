@@ -1,0 +1,76 @@
+.tasks{
+    visibility: visible;
+}
+
+.tasks{
+    text-align: center;
+    display: block;
+    background-color: silver;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+
+}
+
+.tasks i{
+    color: rgba(0,0,0, 1);
+}
+
+.tasks .fa-chevron-down{
+    display: inline;
+}
+.tasks .fa-chevron-up{
+    display: none;
+}
+
+
+  .tasks:hover, .close:hover {
+    cursor:pointer;
+  }
+  
+  .close {
+
+
+    display:block;
+    visibility:hidden;
+    text-align: center;
+    display: block;
+    
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+
+  }
+  
+  .tasks-board {
+    font-family:'돋움';
+    font-size:13px;
+    width:85vw;
+    height:135px;
+
+    display: none;
+    
+    position: relative;
+    top: 0px;
+    left: 40px;
+
+    padding-left: 10px;
+
+
+  }
+  
+  .tasks-board-list {
+    font-size: 22px;
+  }
+  
+  .tasks-board-list li {
+    list-style:none;
+    margin-top:5px;
+  }
+  
+  .tasks-board-list li:hover {
+    text-decoration:underline;
+    cursor:pointer;
+  }

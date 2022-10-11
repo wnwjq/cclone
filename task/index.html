@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>안건</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+    <div class="upper-bar">
+      <div class="upper-bar__column">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="upper-bar__column">
+        <span><h2>안건 상세</h2></span>
+      </div>
+      <div class="upper-bar__column">
+        <span><h1></h1></span>
+        <i class="fa-solid fa-bars"></i>
+
+      </div>
+      
+    </div>
+
+    <form  action="search.html">
+      <input class=search-bar type="text" name="search_book" placeholder="안건 검색">
+
+      <input style="font-family: FontAwesome" id='Search_book_icon' type="submit" value="&#xf002" />
+
+  </form>
+
+    <!--now playing 부분-->
+    <div class="now-playing">
+      <img class="now-playing__icon"src="mamison.jpg" alt="">
+      <div class="now-playing__column">
+        <span><h1>마미손 섭외건</h1>
+          <h4>22/03/01~진행중</h4>
+          <h4>22/08/11 최우선 안건 고정</h4>
+          </span>
+      </div>
+    </div>
+     
+    <!--button 부분-->      
+    
+
+    <div class="button-bar">
+
+      <div class="button__icon">
+        <a href="https://fluorjo.github.io/kokoa-clone/mamison.html"onclick="window.open(this.href, '_blank'); return false;">
+        <div id="button__icon__border1">
+          <i class="fa-solid fa-message fa-lg">카톡 내역</i>
+        </div>       
+      </a> 
+      </div>
+
+
+
+      <div class="button__icon">
+        
+        <div id="button__icon__border2">
+          <i class="fa-regular fa-calendar fa-2x"></i>
+        </div>
+      </div>  
+      <div class="button__icon">
+        <div id="button__icon__border3">
+          <i class="fas fa-plus fa-2x"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--coworker-->
+    <div class="cowoker_head">
+      <h1>이 안건과 연관되는 사람들</h1>
+    </div>
+
+
+    <!--song list 부분-->
+    <div class="song-list">
+      <div class="song-list__column">
+        <div class="songlist__songicon1">
+          
+          <img class="songlist__songicon1"src="mm.jpg" alt=""> 
+        </div>
+
+        <span><h3>매드클라운</h3>
+          <h5>동시 섭외 추진</h5></span>
+      </div>
+      <div class="song-list__column">
+        <div id="songlist__songicon2"> </div>
+        <span><h3>마팀장</h3><h5>헤더</h5></span>
+      </div>
+      <div class="song-list__column">
+        <div id="songlist__songicon3"> </div>
+        <span><h3>차차장</h3><h5>보조</h5></span>
+      </div>
+      <div class="song-list__column">
+        <div id="songlist__songicon4"> </div>
+        <span><h3>곽과장</h3><h5>보조</h5></span>
+      </div>
+      
+
+    </div>    
+
+
+
+ 
+
+<script src="https://kit.fontawesome.com/29233b525a.js" 
+crossorigin="anonymous">
+</script>
+
+  </body>
+</html>

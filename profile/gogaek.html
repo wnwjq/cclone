@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upper-bar">
+
+        <i class="fa-solid fa-angle-left"></i>
+        <div>프로필</div>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <form  action="search.html">
+        <input class=search-bar type="text" name="search_book" placeholder="고객 검색">
+
+        <input style="font-family: FontAwesome" id='Search_book_icon' type="submit" value="&#xf002" />
+
+    </form>
+
+    <nav class="nav">
+        <ul class="nav__menu">
+            <li class="nav__day">
+                <h1>고객 프로필</h1>
+                <a href="">
+                    <img class="nav__day__book" src="go.jpg"/>
+                </a>
+                <div class="nav__day__book__name"><h2>폴 고갱</h2></div>
+
+                <div class="nav__day__book__author"><h7>화가, 인상주의.</h7></div>
+
+                <form name="star_rate" id="star_rate" method="post" action="">
+                    <fieldset>
+                        XX년차 단골고객.
+                    </fieldset>
+                
+
+                <ul class='nav__day__category'>
+                    <input 
+                    id="nav__day__btn__bookmark"
+                    style="font-family: FontAwesome" type="button" value="&#xf095" onClick=clickEvent(); />
+
+                </ul>
+
+                <ul class="nav__day__btn">
+
+                </ul>
+            </li>
+<!--TOP---------------------------------->
+            <div class="nav__top__menu">
+                <h1>이 고객과 연관 있을 것 같은 사람들</h1>
+            </div>
+            <ul class="nav__top">        
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="car.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            차차장
+                            <p>
+                                <h7>마케팅 차장</h7>
+                            </p>
+                        </div>
+                    
+
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="gwa.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            곽과장
+                            <p>
+                                <h7>마케팅 과장</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+                <li class="nav__top__list">
+
+                    <a href="index.html" onclick="window.open(this.href, '_blank'); return false;">
+                        <img class="nav__top__list__book" src="ma.png"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            마차장
+                            <p>
+                                <h7>전담 직원</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="goho.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            고흐
+                            <p>
+                                <h7>친구</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+  
+            </ul>
+
+<!--author-->
+            <div class="nav__author__menu">
+                <h1>나의 메모</h1>
+            </div>
+
+            <div class="nav__author__text">
+            <div class="nav__author__des"><h7>
+
+                Starry, starry night
+Paint your palette blue and gray
+Look out on a summer's day
+With eyes that know the darkness in my soul
+Shadows on the hills
+Sketch the trees and the daffodils
+Catch the breeze and the winter chills
+In colors on the snowy linen land
+Now I understand
+What you tried to say to me
+How you suffered for your sanity
+How you tried to set them free
+They would not listen, they did not know how
+Perhaps they'll listen now
+Starry, starry night
+Flaming flowers that brightly blaze
+Swirling clouds in violet haze
+Reflect in Vincent's eyes of china-blue
+Colors changing hue
+Morning fields of amber grain
+Weathered faces lined in pain
+Are soothed beneath the artist's loving hand
+Now I understand
+What you tried to say to me
+How you suffered for your sanity
+And how you tried to set them free
+They would not listen, they did not know how
+Perhaps they'll listen now
+
+
+            </h7></div>
+            
+
+            </div>
+
+
+
+        </ul>
+    </nav>
+
+
+
+<script src="https://kit.fontawesome.com/29233b525a.js" crossorigin="anonymous"></script>
+<script>
+    function clickEvent(){
+        alert('000-0000-0000으로 연결');
+    }
+</script>
+
+</body>
+</html>

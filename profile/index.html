@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upper-bar">
+        <i class="fa-solid fa-angle-left"></i>
+        <div>프로필</div>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <form  action="search.html">
+        <input class=search-bar type="text" name="search_book" placeholder="직원 검색">
+
+        <input style="font-family: FontAwesome" id='Search_book_icon' type="submit" value="&#xf002" />
+
+    </form>
+
+    <nav class="nav">
+        <ul class="nav__menu">
+            <li class="nav__day">
+                <h1>직원 프로필</h1>
+                <a href="">
+                    <img class="nav__day__book" src="ma.png"/>
+                </a>
+                <div class="nav__day__book__name"><h2>마도요</h2></div>
+
+                <div class="nav__day__book__author"><h7>부장, 마케팅팀 팀장</h7></div>
+
+                <form name="star_rate" id="star_rate" method="post" action="">
+                    <fieldset>
+                        XX년차. 우수직원상 5회
+                    </fieldset>
+                
+
+                <ul class='nav__day__category'>
+                    <input 
+                    id="nav__day__btn__bookmark"
+                    style="font-family: FontAwesome" type="button" value="&#xf095" onClick=clickEvent(); />
+
+                </ul>
+
+                <ul class="nav__day__btn">
+
+                </ul>
+            </li>
+<!--TOP---------------------------------->
+            <div class="nav__top__menu">
+                <h1>이 직원과 연관 있을 것 같은 사람들</h1>
+            </div>
+            <ul class="nav__top">        
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="car.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            차차장
+                            <p>
+                                <h7>마케팅 차장</h7>
+                            </p>
+                        </div>
+                    
+
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="gwa.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            곽과장
+                            <p>
+                                <h7>마케팅 과장</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="gogaek.html" onclick="window.open(this.href, '_blank'); return false;">
+                        <img class="nav__top__list__book" src="go.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            고갱
+                            <p>
+                                <h7>단골 고객</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+                <li class="nav__top__list">
+                    <a href="">
+                        <img class="nav__top__list__book" src="gorae.jpg"/>
+                    </a>
+
+                    <div class='nav__top__list__star'>
+                        <div>
+                            고래
+                            <p>
+                                <h7>거래처</h7>
+                            </p>
+                        </div>
+                    
+                    </div>
+                </li>
+  
+            </ul>
+
+<!--author-->
+            <div class="nav__author__menu">
+                <h1>나의 메모</h1>
+            </div>
+
+            <div class="nav__author__text">
+            <div class="nav__author__des"><h7>난 너의 위성 네 주윌 맴돌지
+                그렇다고 네가 태양은 아니니
+                너의 멋대로 중심이 돼
+                제멋대로 굴면 안 돼
+                어떻게 한순간의 떨림이
+                소리 없이 너의 두 눈을 가리니
+                너의 뜻대로 흘러가네
+                내게 상처를 주면 안 돼
+                넌 네 생각만 하지 그래
+                뭐 그게 참 당연한 듯이
+                어리석게 너에게만 맞춰 왔던 게
+                날 괴롭히네 마지막까지 외롭게 해
+                할 말이 없어 go away
+                설명이 더 필요해?
+                화를 내도 내 입만 아프다니까
+                넌 멋대로만 해 (Brrra)
+                난 언제나 너너너너 해
+                넌 언제나 나나나나 해
+                움띠야이야 띠야이야
+                네 멋대로 중심이 돼
+                넌 너만 생각해
+                그럴 거면 너너너나 해
+                움띠야이야 띠야이야
+                네 멋대로 굴면 안 돼
+                멋대로만 해 ay</h7></div>
+            
+
+            </div>
+
+
+
+        </ul>
+    </nav>
+
+
+
+<script src="https://kit.fontawesome.com/29233b525a.js" crossorigin="anonymous"></script>
+<script>
+    function clickEvent(){
+        alert('000-0000-0000으로 연결');
+    }
+</script>
+
+</body>
+</html>

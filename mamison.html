@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chat w/fluor- Kokoatalk</title>
+</head>
+<body id="chat-screen">
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>no service</span>
+
+            <!--svg icon-->
+            <i class="fas fa-wifi"></i>
+
+        </div>
+        <div class="status-bar__column">
+            <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i> 
+            <i class="fas fa-bolt"></i></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">
+                <span id="mamison">#마미손</span>
+            </h1>
+        </div>
+        <div class="alt-header__column">
+            <span>
+                <i class="fas fa-search fa-2x"></i>
+            </span>
+            <span>
+                <i class="fas fa-bars fa-2x"></i>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class='chat__timestamp'>
+            Saturday, October 08, 2022
+        </div>
+
+        <div class='message-row'>
+            <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+                <img src="ma.png">
+                </a>
+
+            <div class='message-row__content'>
+                <span class="message__author">마팀장</span>
+                <div class='message__info'>
+
+                    <span class="message__bubble"><h8>마미손</h8>섭외</span>
+                    <span class="message__time">08:01</span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class='message-row message-row--own'>
+            <div class='message-row__content'>
+                <div class='message__info'>
+                    <span class="message__bubble"><h8>마미손</h8>이랑 매드클라운도 같이 섭외하면 어떨까요?</span>
+                    <span class="message__time">09:05</span>
+
+                </div>
+            </div>
+        </div>
+        <div class='message-row'>
+            <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+                <img src="car.jpg">
+                </a>
+
+            <div class='message-row__content'>
+                <span class="message__author">차차장</span>
+                <div class='message__info'>
+                    <span class="message__bubble" ><h8>마미손</h8>과 매드클라운이라니 좋은 생각이다</span>
+                    <span class="message__time">10:11</span>
+
+                </div>
+            </div>
+        </div>
+        <div class='chat__timestamp'>
+            Sunday, October 09, 2022
+        </div>
+
+        <div class='message-row'>
+            <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+                <img src="ma.png">
+                </a>
+
+            <div class='message-row__content'>
+                <span class="message__author">마팀장</span>
+                <div class='message__info'>
+                    <span class="message__bubble"><h8>마미손</h8> 마케팅 마무리 마지막 마마무</span>
+                    <span class="message__time">11:11</span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class='message-row'>
+            <a href="profile/index.html" onclick="window.open(this.href, '_blank'); return false;">
+                <img src="ma.png">
+                </a>
+
+            <div class='message-row__content'>
+                <span class="message__author">마팀장</span>
+                <div class='message__info'>
+                    <span class="message__bubble" id="mamison"><a href="mamison.html">
+                        #마미손</a></span>
+                    <span class="message__time">11:11</span>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class='reply__column'>
+            <i class="far fa-plus-square fa-lg"></i>
+
+        </div>
+        <div class='reply__column'>
+            <input type="text" placeholder="write a message">
+            <i class="far fa-smile-wink fa-lg "></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+
+
+
+    <script
+        src="https://kit.fontawesome.com/29233b525a.js" 
+
+crossorigin="anonymous"></script>
+</body>
+</html>
